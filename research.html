@@ -31,40 +31,117 @@
             <div class="content-section">
                 <h2>Research Interests</h2>
                 <ul class="research-list">
-                    <li>Applied Information Geometry</li>
-                    <li>Geometric Mechanics</li>
-                    <li>Geometric Numerical Integration</li>
-                    <li>Symmetries and Conservation Laws</li>
+                    <li>Fractional Fourier Transform and Linear Canonical Transform</li>
+                    <li>Graph Signal Processing</li>
+                    <li>Statistical Data Analysis and Processing</li>
+                    <li>Information Geometry and Riemannian Linear Canonical Transform</li>
                 </ul>
             </div>
 
             <div class="content-section">
-                <h2>Research Area 1: [Name]</h2>
-                <p>Detailed description of the first research area. This section can include theoretical foundations, methodologies, applications, and recent developments.</p>
-                <p>Additional paragraphs can be added to provide more comprehensive information about this research direction.</p>
+                <h2>Research Area 1: Fractional Fourier Transform and Linear Canonical Transform</h2>
+                <p>The <strong>Fractional Fourier Transform (FRFT)</strong> and the <strong>Linear Canonical Transform (LCT)</strong> are two generalized signal transforms that extend the classical Fourier framework. The FRFT enables a continuous transition between the time and frequency domains, providing a fractional-domain representation that captures intermediate signal characteristics. The LCT further generalizes the FRFT by introducing additional degrees of freedom, allowing not only rotation but also scaling and shearing in the time–frequency plane. These transforms serve as powerful tools for analyzing non-stationary signals and have broad applications in signal processing, optics, radar imaging, and data analysis.</p>
+                
+                <h4>(1) Uncertainty Principle and Convolution Theorem</h4>
+                <p>The uncertainty principle in LCT and FRFT domains extends classical bounds on signal localization in time and fractional-frequency domains. Research investigates these bounds in complex-valued, Clifford algebra, and spacetime algebra settings. New convolution theorems provide consistent formulations for linear systems analysis and filtering, while generalized convolution operators enable applications in chirp signal filtering and non-stationary system modeling.</p>
+
+                <h4>(2) Sampling Theory</h4>
+                <p>LCT-domain sampling theory overcomes band-limited constraints of classical Fourier methods. New sampling theorems enable perfect signal recovery from uniformly or non-uniformly spaced samples. Low-rate sampling methods based on derivatives and Hilbert transforms extend to complex reproducing kernel Hilbert spaces, providing efficient digital signal representation.</p>
+
+                <h4>(3) Time–Frequency Analysis Methods</h4>
+                <p>LCT-based time–frequency analysis offers greater flexibility and resolution than Fourier methods, with adaptive scaling and improved noise robustness. Representative techniques include the linear canonical Wigner–Ville distribution (LCWVD), linear canonical wavelet transform (LCWT), and windowed linear canonical transform (WLCT) for accurate parameter estimation of non-stationary signals.</p>
+                
+                <h4>(4) Discretization and Fast Algorithms</h4>
+                <p>Efficient discrete implementations of FRFT and LCT include partition-based, sliding-window, and high-resolution fast algorithms. These methods reduce computational complexity while maintaining accuracy and stability, enabling real-time processing for high-dimensional data and large-scale systems.</p>
+
+                <h4>(5) Applications in Real-World Scenarios</h4>
+                <p>FRFT and LCT have been applied in speech signal restoration, radar signal processing for ISAR imaging, optical measurement, and image processing including digital watermarking, color image representation, and image segmentation.</p>
+             </div>
+
+            <div class="content-section">
+                <h2>Research Area 2: Graph Signal Processing</h2>
+                <p>Graph Signal Processing (GSP) is an emerging field that generalizes traditional signal processing concepts to data defined on graphs rather than regular domains such as time or space. By leveraging the topological structure encoded in the graph Laplacian or adjacency matrix, GSP enables the analysis, transformation, and filtering of signals residing on irregular structures, such as social networks, sensor networks, or brain connectivity graphs. This framework extends classical operations such as Fourier transforms, filtering, and sampling to graph domains, providing powerful tools for analyzing complex data with geometric relationships. </p>
+
+                <h4>(1) Graph Fractional Fourier Transform and Graph Linear Canonical Transform</h4>
+                <p>The Graph Fractional Fourier Transform (GFRFT) and Graph Linear Canonical Transform (GLCT) extend fractional and canonical transforms to graph signal domains. By incorporating graph Laplacian eigenstructure, these transforms enable flexible analysis in fractional spectral domains, capturing both localized frequency components and geometric relationships. Research focuses on theoretical formulation, uncertainty principles, and applications in spectral graph analysis.</p>
+
+                <h4>(2) Vertex–Frequency Analysis and Graph Filter Design</h4>
+                <p>Vertex–frequency analysis jointly characterizes signal variation over graph nodes and spectral components, analogous to time–frequency analysis in classical signal processing. Graph windowed Fourier and wavelet transforms provide fine-grained analysis of localized behaviors. Graph-domain filter design adapts filter kernels to vertex localization and spectral bandwidth, enabling denoising, feature extraction, and anomaly detection on irregular domains.</p>
+
+                <h4>(3) Spectral Graph Neural Networks</h4>
+                <p>Spectral Graph Neural Networks integrate deep learning with spectral graph theory, performing convolutional operations in the graph frequency domain. Hybrid models combine GSP-based transforms (e.g., GLCT) with deep learning to enhance interpretability and robustness, capturing both global graph topology and local vertex-level dynamics.</p>
             </div>
 
             <div class="content-section">
-                <h2>Research Area 2: [Name]</h2>
-                <p>Detailed description of the second research area. Explain the key problems, approaches, and contributions.</p>
+                <h2>Research Area 3: Statistical Data Analysis and Processing</h2>
+                <p>This research area focuses on developing statistical modeling and computational methodologies for analyzing large-scale and high-dimensional data in complex environments. 
+                    The objective is to construct efficient estimation, detection, and decision-making frameworks capable of handling noise, uncertainty, and heterogeneity in massive datasets. 
+                    Classical statistical inference, machine learning, and signal processing theories are integrated to achieve accurate, interpretable, and robust data analysis.
+                    </p>
+
+                <h4>(1) Statistical Signal Detection in Big Data Environments</h4>
+                <p>This research investigates signal detection and classification in large-scale datasets under weak-signal and low SNR conditions. Deep learning, ensemble learning, and adaptive boosting algorithms enhance detection capability. Fractional and canonical domain representations improve discrimination between target and interference signals, with applications in wireless communication, radar sensing, and remote data acquisition.</p>
+
+                <h4>(2) Parameter Estimation and Inference Algorithms</h4>
+                <p>Research focuses on adaptive and regularized parameter estimation techniques ensuring numerical stability in noisy, nonstationary, or ill-conditioned environments. Methods such as the Broken Adaptive Ridge (BAR) algorithm and its graph-based extension (GBARA) reduce bias and enhance accuracy. Neural network–based estimators integrate data-driven learning with classical statistical estimation for real-time adaptation.</p>
+
+                <h4>(3) High-Dimensional Covariance Estimation and Invertibility</h4>
+                <p>This research develops efficient and stable estimation of covariance and precision matrices for high-dimensional or sparse datasets. Structural information (low-rank, sparse, or block-diagonal patterns) enables accurate reconstruction under limited observations. Graphical modeling and random matrix theory analyze invertibility and improve computational tractability, with applications in multi-sensor fusion, bioinformatics, and financial data analysis.</p>
+
+                <h4>(4) Machine Learning and Deep Learning</h4>
+                <p>Research applies machine learning and deep learning techniques to statistical data analysis and signal processing. Topics include supervised and unsupervised learning, neural network optimization, and model interpretability. Deep learning models enable nonlinear feature extraction and pattern recognition, while lightweight algorithms support efficient deployment in resource-constrained environments.</p>
             </div>
 
             <div class="content-section">
-                <h2>Research Area 3: [Name]</h2>
-                <p>Detailed description of the third research area.</p>
-            </div>
+                <h2>Research Area 4: Information Geometry and Riemannian Linear Canonical Transform</h2>
+                <p>This research area investigates the integration of information geometry and Riemannian linear canonical transform (RLCT) theory for complex signal analysis, clutter suppression, and target detection. The objective is to construct mathematically rigorous and computationally efficient frameworks that can characterize and extract weak signal features embedded in heavy clutter environments. The studies bridge the theoretical foundation of Riemannian geometry, linear canonical transform, and modern signal processing to improve feature representation, enhance detection performance, and promote the development of intelligent sensing systems.                </p>
+            
+                <h4>(1) Application of Information Geometry in Target Detection</h4>
+                <p>Matrix Information Geometry (MIG) models covariance and correlation matrices as points on a Riemannian manifold. Geodesic distance measures quantify similarity between signal structures, enabling efficient feature discrimination and classification under nonlinear and nonstationary conditions through intrinsic geometric properties.</p>
 
-            <div class="content-section">
-                <h2>Research Area 4: [Name]</h2>
-                <p>Detailed description of the fourth research area.</p>
+                <h4>(2) Fundamental Theory of Riemannian Linear Canonical Transform</h4>
+                <p>This research develops the mathematical foundation of RLCT by combining linear canonical transform theory with Riemannian geometry. Focus areas include spectral properties, transformation kernels, and invariance characteristics under different curvature conditions. Theoretical analysis of energy preservation, scale and shift invariance, and stability provides a framework for representing nonstationary signals.</p>
+            
+                <h4>(3) Clutter Suppression and Feature Extraction Based on RLCT</h4>
+                <p>RLCT-based methods enhance signal clarity in heavy interference by mapping energy distributions to reveal differences between target and clutter signals. Optimized parameter selection and adaptive transform kernels improve separability of weak targets. Time–frequency and spatial correlation analysis enable high-precision clutter mitigation in maritime and radar signal processing.</p>
+
+                <h4>(4) Target Detection Based on RLCT Correlation and Integral Models</h4>
+                <p>RLCT-based correlation and integral methods detect targets in low signal-to-clutter environments. RLCT-domain correlation metrics quantify spatial and temporal dependencies between target echoes and clutter. Integral and covariance models in RLCT space enhance detection accuracy through distance-based and statistical decision frameworks.</p>
             </div>
 
             <div class="content-section">
                 <h2>Research Projects</h2>
                 <ul class="list-plain">
-                    <li><strong>Project Name 1:</strong> Brief description of the project.</li>
-                    <li><strong>Project Name 2:</strong> Brief description of the project.</li>
-                    <li><strong>Project Name 3:</strong> Brief description of the project.</li>
+                    <li>
+                        <strong>National Natural Science Foundation of China General Program</strong><br>
+                        <em>Research on Sea Clutter Suppression and Target Detection Methods Based on Riemannian Manifold Linear Canonical Transform</em><br>
+                        Duration: 2026.01 - 2029.12<br>
+                        This project focuses on the interdisciplinary field of information geometry and signal processing, conducting theoretical and applied research on linear canonical transforms under Riemannian manifolds. I am mainly responsible for theoretical innovation and algorithm design research in this project.
+                    </li>
+                    <li>
+                        <strong>National Natural Science Foundation of China General Program</strong><br>
+                        <em>Research on the Theory and Methods of Graph Fractional Fourier Transform</em><br>
+                        Duration: 2022.01 - 2025.12<br>
+                        This project focuses on the interdisciplinary field of graph signal processing, integrating basic mathematical principles with signal processing techniques. I am mainly responsible for theoretical innovation and algorithm design research in this project.
+                    </li>
+                    <li>
+                        <strong>National Key Research and Development Program</strong><br>
+                        <em>Research on Key Technologies for a National Fitness Information Service Platform</em><br>
+                        Duration: 2020.12 - 2023.11<br>
+                        This project focuses on the challenges of multi-level national fitness service evaluation, primarily conducting research in three aspects: indicator system construction, evaluation model and index design, and system development. I am responsible for overall planning and R&D work.
+                    </li>
+                    <li>
+                        <strong>University-Enterprise Cooperation Project</strong><br>
+                        <em>Research on Crude Oil Water Cut Monitoring and Measurement Models in Dagang Oilfield</em><br>
+                        Duration: 2019.11 - 2020.12<br>
+                        This project analyzes the periodicity of water cut data, classifies and extracts its frequency domain features, and then performs polynomial fitting. Finally, it constructs anomaly detection and prediction models based on moving average and dynamic regularization algorithms.
+                    </li>
+                    <li>
+                        <strong>National Natural Science Foundation of China General Program</strong><br>
+                        <em>The research of signal processing theory and key technologies based on the linear canonical transform</em><br>
+                        Duration: 2017.01 - 2020.12<br>
+                        This project focuses on time-frequency analysis theory and methods, conducting systematic research on discretization methods, fast algorithms, and FM signal detection in the LCT domain. The research aims to enrich the theoretical system for non-stationary signal analysis and processing.
+                    </li>
                 </ul>
             </div>
 

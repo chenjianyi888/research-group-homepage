@@ -288,6 +288,59 @@ main {
     text-decoration: underline;
 }
 
+/* Member Card */
+.member-card {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.member-photo {
+    flex-shrink: 0;
+}
+
+.member-photo img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.member-info {
+    flex: 1;
+}
+
+.member-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.member-degree {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.member-period {
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.member-research {
+    font-size: 13px;
+    margin-bottom: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
 /* Links */
 .more-link {
     color: #0066cc;
@@ -426,5 +479,20 @@ a:hover {
     .gallery-grid-three-col {
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
+    }
+    
+    .member-card {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+    }
+    
+    .member-photo {
+        align-self: center;
+    }
+    
+    .member-photo img {
+        width: 120px;
+        height: 160px;
     }
 }
